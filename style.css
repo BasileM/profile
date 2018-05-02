@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+  background: rgb(32,34,48);
+  color: black;
+  font-family: Nunito;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(211,211,211);
+  font-size: 18px;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.card {
+  background-color: rgb(255,255,255);   /* This sets the width */
+  width:700px; /* you can use % */
+  height: auto;; /* This automatically sets left/right margins */
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 1px -2px 15px 5px #888888;
+  margin: 20px;
+}
+
+.image_size {
+  width:150px; /* you can use % */
+  height: auto;
+}
+
+#image_border_radius {
+  border-radius: 50%;
+}
+
+.icon_size {
+  width:40px; /* you can use % */
+  height: auto;
+}
+
+#image_hover:hover {
+    opacity: 0.5;
+}
+
+.inline li {
+  display:inline;
+  padding: 20px;
+}
