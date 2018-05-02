@@ -25,24 +25,24 @@ h2 {
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1500px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 920px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 400px;
   }
 }
 
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 275px;
   }
 }
 
@@ -55,7 +55,7 @@ hr {
 
 .card {
   background-color: rgb(255,255,255);   /* This sets the width */
-  width:700px; /* you can use % */
+  /*width:700px;  you can use % */
   height: auto;; /* This automatically sets left/right margins */
   padding: 20px;
   text-align: center;
