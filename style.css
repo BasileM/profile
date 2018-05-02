@@ -42,10 +42,6 @@ h2 {
   }
 }
 
-.container {
-  margin: 0 auto; /* This automatically sets left/right margins */
-}
-
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
