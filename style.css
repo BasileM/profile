@@ -2,87 +2,10 @@
 
 body{
   background: rgb(32,34,48);
-  color: black;
+  color: white;
   font-family: Nunito;
 }
 
-ul {
-  list-style-type: none;
-}
-
-h1{
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-h2 {
-  color: rgb(211,211,211);
-  font-size: 18px;
-}
-
-.container {
-  margin: 0 auto; /* This automatically sets left/right margins */
-}
-
-@media (max-width: 1500px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 920px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 400px;
-  }
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 275px;
-  }
-}
-
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(0,0,0,0.1);
-}
-
-.card {
-  background-color: rgb(255,255,255);   /* This sets the width */
-  /*width:700px;  you can use % */
-  height: auto;; /* This automatically sets left/right margins */
-  padding: 20px;
+.text-center {
   text-align: center;
-  border-radius: 15px;
-  box-shadow: 1px -2px 15px 5px #888888;
-  margin: 20px;
-}
-
-.image_size {
-  width:150px; /* you can use % */
-  height: auto;
-}
-
-#image_border_radius {
-  border-radius: 50%;
-}
-
-.icon_size {
-  width:40px; /* you can use % */
-  height: auto;
-}
-
-#image_hover:hover {
-    opacity: 0.5;
-}
-
-.inline li {
-  display:inline;
-  padding: 20px;
 }
